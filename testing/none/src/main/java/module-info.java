@@ -4,5 +4,5 @@ import eu.jbeernink.beandescriptor.generator.annotations.BeanArchive;
 
 @BeanArchive(beanDiscoveryMode = NONE)
 module eu.jbeernink.beandescriptor.generator.testing.none {
-	requires eu.jbeernink.beandescriptorgenerator;
+	requires eu.jbeernink.beandescriptor.generator;
 }
